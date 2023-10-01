@@ -27,6 +27,7 @@ import SwiftUI
 
 /// A standard LaTeX view style with input unencoded, equations numbered, and
 /// a serif font.
+@available(iOS 16, *)
 public struct StandardLaTeXStyle: LaTeXStyle {
   
   public func makeBody(content: LaTeX) -> some View {
@@ -40,6 +41,7 @@ public struct StandardLaTeXStyle: LaTeXStyle {
   
 }
 
+@available(iOS 16, *)
 extension LaTeXStyle where Self == StandardLaTeXStyle {
   
   /// A standard LaTeX view style with input unencoded, equations numbered, and

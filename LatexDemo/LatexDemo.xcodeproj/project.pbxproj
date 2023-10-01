@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AC1DB4C2AB8BECB008E5CD3 /* LatexDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB4B2AB8BECB008E5CD3 /* LatexDemoApp.swift */; };
+		7AC1DB4E2AB8BECB008E5CD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB4D2AB8BECB008E5CD3 /* ContentView.swift */; };
+		7AC1DB502AB8BECC008E5CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC1DB4F2AB8BECC008E5CD3 /* Assets.xcassets */; };
+		7AC1DB542AB8BECC008E5CD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC1DB532AB8BECC008E5CD3 /* Preview Assets.xcassets */; };
+		7AC1DB7C2AB8BEE2008E5CD3 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB5B2AB8BEE2008E5CD3 /* Aliases.swift */; };
+		7AC1DB7D2AB8BEE2008E5CD3 /* SVGGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB5C2AB8BEE2008E5CD3 /* SVGGeometry.swift */; };
+		7AC1DB7E2AB8BEE2008E5CD3 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB5D2AB8BEE2008E5CD3 /* Cache.swift */; };
+		7AC1DB7F2AB8BEE2008E5CD3 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB5E2AB8BEE2008E5CD3 /* Component.swift */; };
+		7AC1DB802AB8BEE2008E5CD3 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB5F2AB8BEE2008E5CD3 /* Parser.swift */; };
+		7AC1DB812AB8BEE2008E5CD3 /* SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB602AB8BEE2008E5CD3 /* SVG.swift */; };
+		7AC1DB822AB8BEE2008E5CD3 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB612AB8BEE2008E5CD3 /* Renderer.swift */; };
+		7AC1DB832AB8BEE2008E5CD3 /* LaTeX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB622AB8BEE2008E5CD3 /* LaTeX.swift */; };
+		7AC1DB842AB8BEE2008E5CD3 /* DefaultLaTeXStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB642AB8BEE2008E5CD3 /* DefaultLaTeXStyle.swift */; };
+		7AC1DB852AB8BEE2008E5CD3 /* LaTeXStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB652AB8BEE2008E5CD3 /* LaTeXStyle.swift */; };
+		7AC1DB862AB8BEE2008E5CD3 /* StandardLaTeXStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB662AB8BEE2008E5CD3 /* StandardLaTeXStyle.swift */; };
+		7AC1DB872AB8BEE2008E5CD3 /* LaTeX_Previews+Modes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB682AB8BEE2008E5CD3 /* LaTeX_Previews+Modes.swift */; };
+		7AC1DB882AB8BEE2008E5CD3 /* LaTeX_Previews+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB692AB8BEE2008E5CD3 /* LaTeX_Previews+Color.swift */; };
+		7AC1DB892AB8BEE2008E5CD3 /* LaTeX_Previews+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB6A2AB8BEE2008E5CD3 /* LaTeX_Previews+Styles.swift */; };
+		7AC1DB8A2AB8BEE2008E5CD3 /* LaTeX_Previews+Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB6B2AB8BEE2008E5CD3 /* LaTeX_Previews+Numbers.swift */; };
+		7AC1DB8B2AB8BEE2008E5CD3 /* ComponentBlockText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB6D2AB8BEE2008E5CD3 /* ComponentBlockText.swift */; };
+		7AC1DB8C2AB8BEE2008E5CD3 /* ComponentBlocksText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB6E2AB8BEE2008E5CD3 /* ComponentBlocksText.swift */; };
+		7AC1DB8D2AB8BEE2008E5CD3 /* HorizontalImageScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB6F2AB8BEE2008E5CD3 /* HorizontalImageScroller.swift */; };
+		7AC1DB8E2AB8BEE2008E5CD3 /* EquationNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB702AB8BEE2008E5CD3 /* EquationNumber.swift */; };
+		7AC1DB8F2AB8BEE2008E5CD3 /* ComponentBlocksViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB712AB8BEE2008E5CD3 /* ComponentBlocksViews.swift */; };
+		7AC1DB902AB8BEE2008E5CD3 /* EnvironmentValues+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB732AB8BEE2008E5CD3 /* EnvironmentValues+Extensions.swift */; };
+		7AC1DB912AB8BEE2008E5CD3 /* Range+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB742AB8BEE2008E5CD3 /* Range+Extensions.swift */; };
+		7AC1DB922AB8BEE2008E5CD3 /* TeXInputProcessorOptions+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB752AB8BEE2008E5CD3 /* TeXInputProcessorOptions+Extensions.swift */; };
+		7AC1DB932AB8BEE2008E5CD3 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB762AB8BEE2008E5CD3 /* View+Extensions.swift */; };
+		7AC1DB942AB8BEE2008E5CD3 /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB772AB8BEE2008E5CD3 /* Font+Extensions.swift */; };
+		7AC1DB952AB8BEE2008E5CD3 /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB782AB8BEE2008E5CD3 /* Image+Extensions.swift */; };
+		7AC1DB962AB8BEE2008E5CD3 /* ImageRenderer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB792AB8BEE2008E5CD3 /* ImageRenderer+Extensions.swift */; };
+		7AC1DB972AB8BEE2008E5CD3 /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB7A2AB8BEE2008E5CD3 /* CGRect+Extensions.swift */; };
+		7AC1DB982AB8BEE2008E5CD3 /* MathJax+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1DB7B2AB8BEE2008E5CD3 /* MathJax+Extensions.swift */; };
+		7AC1DB9D2AB8BF30008E5CD3 /* MathJaxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7AC1DB9C2AB8BF30008E5CD3 /* MathJaxSwift */; };
+		7AC1DBA02AB8BF55008E5CD3 /* HTMLEntities in Frameworks */ = {isa = PBXBuildFile; productRef = 7AC1DB9F2AB8BF55008E5CD3 /* HTMLEntities */; };
+		7AC1DBA32AB8BF69008E5CD3 /* SVGView in Frameworks */ = {isa = PBXBuildFile; productRef = 7AC1DBA22AB8BF69008E5CD3 /* SVGView */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7AC1DB482AB8BECB008E5CD3 /* LatexDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LatexDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AC1DB4B2AB8BECB008E5CD3 /* LatexDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatexDemoApp.swift; sourceTree = "<group>"; };
+		7AC1DB4D2AB8BECB008E5CD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7AC1DB4F2AB8BECC008E5CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AC1DB512AB8BECC008E5CD3 /* LatexDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LatexDemo.entitlements; sourceTree = "<group>"; };
+		7AC1DB532AB8BECC008E5CD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7AC1DB5B2AB8BEE2008E5CD3 /* Aliases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
+		7AC1DB5C2AB8BEE2008E5CD3 /* SVGGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGGeometry.swift; sourceTree = "<group>"; };
+		7AC1DB5D2AB8BEE2008E5CD3 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		7AC1DB5E2AB8BEE2008E5CD3 /* Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		7AC1DB5F2AB8BEE2008E5CD3 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		7AC1DB602AB8BEE2008E5CD3 /* SVG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVG.swift; sourceTree = "<group>"; };
+		7AC1DB612AB8BEE2008E5CD3 /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		7AC1DB622AB8BEE2008E5CD3 /* LaTeX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaTeX.swift; path = ../../Sources/LaTeXSwiftUI/LaTeX.swift; sourceTree = "<group>"; };
+		7AC1DB642AB8BEE2008E5CD3 /* DefaultLaTeXStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLaTeXStyle.swift; sourceTree = "<group>"; };
+		7AC1DB652AB8BEE2008E5CD3 /* LaTeXStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaTeXStyle.swift; sourceTree = "<group>"; };
+		7AC1DB662AB8BEE2008E5CD3 /* StandardLaTeXStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardLaTeXStyle.swift; sourceTree = "<group>"; };
+		7AC1DB682AB8BEE2008E5CD3 /* LaTeX_Previews+Modes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LaTeX_Previews+Modes.swift"; sourceTree = "<group>"; };
+		7AC1DB692AB8BEE2008E5CD3 /* LaTeX_Previews+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LaTeX_Previews+Color.swift"; sourceTree = "<group>"; };
+		7AC1DB6A2AB8BEE2008E5CD3 /* LaTeX_Previews+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LaTeX_Previews+Styles.swift"; sourceTree = "<group>"; };
+		7AC1DB6B2AB8BEE2008E5CD3 /* LaTeX_Previews+Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LaTeX_Previews+Numbers.swift"; sourceTree = "<group>"; };
+		7AC1DB6D2AB8BEE2008E5CD3 /* ComponentBlockText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentBlockText.swift; sourceTree = "<group>"; };
+		7AC1DB6E2AB8BEE2008E5CD3 /* ComponentBlocksText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentBlocksText.swift; sourceTree = "<group>"; };
+		7AC1DB6F2AB8BEE2008E5CD3 /* HorizontalImageScroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalImageScroller.swift; sourceTree = "<group>"; };
+		7AC1DB702AB8BEE2008E5CD3 /* EquationNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquationNumber.swift; sourceTree = "<group>"; };
+		7AC1DB712AB8BEE2008E5CD3 /* ComponentBlocksViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentBlocksViews.swift; sourceTree = "<group>"; };
+		7AC1DB732AB8BEE2008E5CD3 /* EnvironmentValues+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+Extensions.swift"; sourceTree = "<group>"; };
+		7AC1DB742AB8BEE2008E5CD3 /* Range+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Range+Extensions.swift"; sourceTree = "<group>"; };
+		7AC1DB752AB8BEE2008E5CD3 /* TeXInputProcessorOptions+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TeXInputProcessorOptions+Extensions.swift"; sourceTree = "<group>"; };
+		7AC1DB762AB8BEE2008E5CD3 /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		7AC1DB772AB8BEE2008E5CD3 /* Font+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
+		7AC1DB782AB8BEE2008E5CD3 /* Image+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
+		7AC1DB792AB8BEE2008E5CD3 /* ImageRenderer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageRenderer+Extensions.swift"; sourceTree = "<group>"; };
+		7AC1DB7A2AB8BEE2008E5CD3 /* CGRect+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extensions.swift"; sourceTree = "<group>"; };
+		7AC1DB7B2AB8BEE2008E5CD3 /* MathJax+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MathJax+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AC1DB452AB8BECB008E5CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC1DBA32AB8BF69008E5CD3 /* SVGView in Frameworks */,
+				7AC1DBA02AB8BF55008E5CD3 /* HTMLEntities in Frameworks */,
+				7AC1DB9D2AB8BF30008E5CD3 /* MathJaxSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AC1DB3F2AB8BECB008E5CD3 = {
+			isa = PBXGroup;
+			children = (
+				7AC1DB4A2AB8BECB008E5CD3 /* LatexDemo */,
+				7AC1DB492AB8BECB008E5CD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AC1DB492AB8BECB008E5CD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AC1DB482AB8BECB008E5CD3 /* LatexDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AC1DB4A2AB8BECB008E5CD3 /* LatexDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7AC1DB722AB8BEE2008E5CD3 /* Extensions */,
+				7AC1DB622AB8BEE2008E5CD3 /* LaTeX.swift */,
+				7AC1DB5A2AB8BEE2008E5CD3 /* Models */,
+				7AC1DB672AB8BEE2008E5CD3 /* Previews */,
+				7AC1DB632AB8BEE2008E5CD3 /* Styles */,
+				7AC1DB6C2AB8BEE2008E5CD3 /* Views */,
+				7AC1DB4B2AB8BECB008E5CD3 /* LatexDemoApp.swift */,
+				7AC1DB4D2AB8BECB008E5CD3 /* ContentView.swift */,
+				7AC1DB4F2AB8BECC008E5CD3 /* Assets.xcassets */,
+				7AC1DB512AB8BECC008E5CD3 /* LatexDemo.entitlements */,
+				7AC1DB522AB8BECC008E5CD3 /* Preview Content */,
+			);
+			path = LatexDemo;
+			sourceTree = "<group>";
+		};
+		7AC1DB522AB8BECC008E5CD3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7AC1DB532AB8BECC008E5CD3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7AC1DB5A2AB8BEE2008E5CD3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7AC1DB5B2AB8BEE2008E5CD3 /* Aliases.swift */,
+				7AC1DB5C2AB8BEE2008E5CD3 /* SVGGeometry.swift */,
+				7AC1DB5D2AB8BEE2008E5CD3 /* Cache.swift */,
+				7AC1DB5E2AB8BEE2008E5CD3 /* Component.swift */,
+				7AC1DB5F2AB8BEE2008E5CD3 /* Parser.swift */,
+				7AC1DB602AB8BEE2008E5CD3 /* SVG.swift */,
+				7AC1DB612AB8BEE2008E5CD3 /* Renderer.swift */,
+			);
+			name = Models;
+			path = ../../Sources/LaTeXSwiftUI/Models;
+			sourceTree = "<group>";
+		};
+		7AC1DB632AB8BEE2008E5CD3 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				7AC1DB642AB8BEE2008E5CD3 /* DefaultLaTeXStyle.swift */,
+				7AC1DB652AB8BEE2008E5CD3 /* LaTeXStyle.swift */,
+				7AC1DB662AB8BEE2008E5CD3 /* StandardLaTeXStyle.swift */,
+			);
+			name = Styles;
+			path = ../../Sources/LaTeXSwiftUI/Styles;
+			sourceTree = "<group>";
+		};
+		7AC1DB672AB8BEE2008E5CD3 /* Previews */ = {
+			isa = PBXGroup;
+			children = (
+				7AC1DB682AB8BEE2008E5CD3 /* LaTeX_Previews+Modes.swift */,
+				7AC1DB692AB8BEE2008E5CD3 /* LaTeX_Previews+Color.swift */,
+				7AC1DB6A2AB8BEE2008E5CD3 /* LaTeX_Previews+Styles.swift */,
+				7AC1DB6B2AB8BEE2008E5CD3 /* LaTeX_Previews+Numbers.swift */,
+			);
+			name = Previews;
+			path = ../../Sources/LaTeXSwiftUI/Previews;
+			sourceTree = "<group>";
+		};
+		7AC1DB6C2AB8BEE2008E5CD3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AC1DB6D2AB8BEE2008E5CD3 /* ComponentBlockText.swift */,
+				7AC1DB6E2AB8BEE2008E5CD3 /* ComponentBlocksText.swift */,
+				7AC1DB6F2AB8BEE2008E5CD3 /* HorizontalImageScroller.swift */,
+				7AC1DB702AB8BEE2008E5CD3 /* EquationNumber.swift */,
+				7AC1DB712AB8BEE2008E5CD3 /* ComponentBlocksViews.swift */,
+			);
+			name = Views;
+			path = ../../Sources/LaTeXSwiftUI/Views;
+			sourceTree = "<group>";
+		};
+		7AC1DB722AB8BEE2008E5CD3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7AC1DB732AB8BEE2008E5CD3 /* EnvironmentValues+Extensions.swift */,
+				7AC1DB742AB8BEE2008E5CD3 /* Range+Extensions.swift */,
+				7AC1DB752AB8BEE2008E5CD3 /* TeXInputProcessorOptions+Extensions.swift */,
+				7AC1DB762AB8BEE2008E5CD3 /* View+Extensions.swift */,
+				7AC1DB772AB8BEE2008E5CD3 /* Font+Extensions.swift */,
+				7AC1DB782AB8BEE2008E5CD3 /* Image+Extensions.swift */,
+				7AC1DB792AB8BEE2008E5CD3 /* ImageRenderer+Extensions.swift */,
+				7AC1DB7A2AB8BEE2008E5CD3 /* CGRect+Extensions.swift */,
+				7AC1DB7B2AB8BEE2008E5CD3 /* MathJax+Extensions.swift */,
+			);
+			name = Extensions;
+			path = ../../Sources/LaTeXSwiftUI/Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AC1DB472AB8BECB008E5CD3 /* LatexDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AC1DB572AB8BECC008E5CD3 /* Build configuration list for PBXNativeTarget "LatexDemo" */;
+			buildPhases = (
+				7AC1DB442AB8BECB008E5CD3 /* Sources */,
+				7AC1DB452AB8BECB008E5CD3 /* Frameworks */,
+				7AC1DB462AB8BECB008E5CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LatexDemo;
+			packageProductDependencies = (
+				7AC1DB9C2AB8BF30008E5CD3 /* MathJaxSwift */,
+				7AC1DB9F2AB8BF55008E5CD3 /* HTMLEntities */,
+				7AC1DBA22AB8BF69008E5CD3 /* SVGView */,
+			);
+			productName = LatexDemo;
+			productReference = 7AC1DB482AB8BECB008E5CD3 /* LatexDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AC1DB402AB8BECB008E5CD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7AC1DB472AB8BECB008E5CD3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7AC1DB432AB8BECB008E5CD3 /* Build configuration list for PBXProject "LatexDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AC1DB3F2AB8BECB008E5CD3;
+			packageReferences = (
+				7AC1DB9B2AB8BF30008E5CD3 /* XCRemoteSwiftPackageReference "MathJaxSwift" */,
+				7AC1DB9E2AB8BF55008E5CD3 /* XCRemoteSwiftPackageReference "swift-html-entities" */,
+				7AC1DBA12AB8BF69008E5CD3 /* XCRemoteSwiftPackageReference "SVGView" */,
+			);
+			productRefGroup = 7AC1DB492AB8BECB008E5CD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AC1DB472AB8BECB008E5CD3 /* LatexDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AC1DB462AB8BECB008E5CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC1DB542AB8BECC008E5CD3 /* Preview Assets.xcassets in Resources */,
+				7AC1DB502AB8BECC008E5CD3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AC1DB442AB8BECB008E5CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC1DB8E2AB8BEE2008E5CD3 /* EquationNumber.swift in Sources */,
+				7AC1DB872AB8BEE2008E5CD3 /* LaTeX_Previews+Modes.swift in Sources */,
+				7AC1DB8A2AB8BEE2008E5CD3 /* LaTeX_Previews+Numbers.swift in Sources */,
+				7AC1DB952AB8BEE2008E5CD3 /* Image+Extensions.swift in Sources */,
+				7AC1DB7D2AB8BEE2008E5CD3 /* SVGGeometry.swift in Sources */,
+				7AC1DB8D2AB8BEE2008E5CD3 /* HorizontalImageScroller.swift in Sources */,
+				7AC1DB7F2AB8BEE2008E5CD3 /* Component.swift in Sources */,
+				7AC1DB902AB8BEE2008E5CD3 /* EnvironmentValues+Extensions.swift in Sources */,
+				7AC1DB832AB8BEE2008E5CD3 /* LaTeX.swift in Sources */,
+				7AC1DB882AB8BEE2008E5CD3 /* LaTeX_Previews+Color.swift in Sources */,
+				7AC1DB942AB8BEE2008E5CD3 /* Font+Extensions.swift in Sources */,
+				7AC1DB8F2AB8BEE2008E5CD3 /* ComponentBlocksViews.swift in Sources */,
+				7AC1DB7E2AB8BEE2008E5CD3 /* Cache.swift in Sources */,
+				7AC1DB4E2AB8BECB008E5CD3 /* ContentView.swift in Sources */,
+				7AC1DB892AB8BEE2008E5CD3 /* LaTeX_Previews+Styles.swift in Sources */,
+				7AC1DB842AB8BEE2008E5CD3 /* DefaultLaTeXStyle.swift in Sources */,
+				7AC1DB8C2AB8BEE2008E5CD3 /* ComponentBlocksText.swift in Sources */,
+				7AC1DB852AB8BEE2008E5CD3 /* LaTeXStyle.swift in Sources */,
+				7AC1DB812AB8BEE2008E5CD3 /* SVG.swift in Sources */,
+				7AC1DB972AB8BEE2008E5CD3 /* CGRect+Extensions.swift in Sources */,
+				7AC1DB912AB8BEE2008E5CD3 /* Range+Extensions.swift in Sources */,
+				7AC1DB4C2AB8BECB008E5CD3 /* LatexDemoApp.swift in Sources */,
+				7AC1DB962AB8BEE2008E5CD3 /* ImageRenderer+Extensions.swift in Sources */,
+				7AC1DB982AB8BEE2008E5CD3 /* MathJax+Extensions.swift in Sources */,
+				7AC1DB7C2AB8BEE2008E5CD3 /* Aliases.swift in Sources */,
+				7AC1DB8B2AB8BEE2008E5CD3 /* ComponentBlockText.swift in Sources */,
+				7AC1DB822AB8BEE2008E5CD3 /* Renderer.swift in Sources */,
+				7AC1DB932AB8BEE2008E5CD3 /* View+Extensions.swift in Sources */,
+				7AC1DB862AB8BEE2008E5CD3 /* StandardLaTeXStyle.swift in Sources */,
+				7AC1DB922AB8BEE2008E5CD3 /* TeXInputProcessorOptions+Extensions.swift in Sources */,
+				7AC1DB802AB8BEE2008E5CD3 /* Parser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7AC1DB552AB8BECC008E5CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AC1DB562AB8BECC008E5CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7AC1DB582AB8BECC008E5CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LatexDemo/LatexDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LatexDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = VMS4L2VS44;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.lecommsulting.markdownparser.LatexDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AC1DB592AB8BECC008E5CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LatexDemo/LatexDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LatexDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = VMS4L2VS44;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.lecommsulting.markdownparser.LatexDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AC1DB432AB8BECB008E5CD3 /* Build configuration list for PBXProject "LatexDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AC1DB552AB8BECC008E5CD3 /* Debug */,
+				7AC1DB562AB8BECC008E5CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AC1DB572AB8BECC008E5CD3 /* Build configuration list for PBXNativeTarget "LatexDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AC1DB582AB8BECC008E5CD3 /* Debug */,
+				7AC1DB592AB8BECC008E5CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7AC1DB9B2AB8BF30008E5CD3 /* XCRemoteSwiftPackageReference "MathJaxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/colinc86/MathJaxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.4.0;
+			};
+		};
+		7AC1DB9E2AB8BF55008E5CD3 /* XCRemoteSwiftPackageReference "swift-html-entities" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kitura/swift-html-entities";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+		7AC1DBA12AB8BF69008E5CD3 /* XCRemoteSwiftPackageReference "SVGView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/SVGView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7AC1DB9C2AB8BF30008E5CD3 /* MathJaxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AC1DB9B2AB8BF30008E5CD3 /* XCRemoteSwiftPackageReference "MathJaxSwift" */;
+			productName = MathJaxSwift;
+		};
+		7AC1DB9F2AB8BF55008E5CD3 /* HTMLEntities */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AC1DB9E2AB8BF55008E5CD3 /* XCRemoteSwiftPackageReference "swift-html-entities" */;
+			productName = HTMLEntities;
+		};
+		7AC1DBA22AB8BF69008E5CD3 /* SVGView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AC1DBA12AB8BF69008E5CD3 /* XCRemoteSwiftPackageReference "SVGView" */;
+			productName = SVGView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7AC1DB402AB8BECB008E5CD3 /* Project object */;
+}

@@ -26,6 +26,7 @@
 import MathJaxSwift
 import SwiftUI
 
+@available(iOS 16, *)
 public extension View {
   
   /// Preloads a `LaTeX` view's SVG and image data.

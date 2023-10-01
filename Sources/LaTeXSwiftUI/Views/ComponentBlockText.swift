@@ -26,6 +26,7 @@
 import SwiftUI
 
 /// Displays a component block as a text view.
+@available(iOS 16, *)
 internal struct ComponentBlockText: View {
   
   /// The component blocks to display in the view.
@@ -68,6 +69,7 @@ internal struct ComponentBlockText: View {
   
 }
 
+@available(iOS 16, *)
 struct ComponentBlockTextPreviews: PreviewProvider {
   static var previews: some View {
     ComponentBlockText(block: ComponentBlock(components: [

@@ -29,6 +29,7 @@ import SwiftUI
 
 /// A view that can parse and render TeX and LaTeX equations that contain
 /// math-mode marcos.
+@available(iOS 16, *)
 public struct LaTeX: View {
   
   // MARK: Types
@@ -206,7 +207,7 @@ public struct LaTeX: View {
 }
 
 // MARK: Public methods
-
+@available(iOS 16, *)
 extension LaTeX {
   
   /// Preloads the view's SVG and image data.
@@ -227,7 +228,7 @@ extension LaTeX {
 }
 
 // MARK: Private methods
-
+@available(iOS 16, *)
 extension LaTeX {
   
   /// Checks the renderer's caches for the current view.

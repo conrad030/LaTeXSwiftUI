@@ -26,6 +26,7 @@
 import SwiftUI
 
 /// A view that draws a number next to an equation.
+@available(iOS 16, *)
 struct EquationNumber: View {
   
   // MARK: Types
@@ -96,6 +97,7 @@ struct EquationNumber: View {
   
 }
 
+@available(iOS 16, *)
 struct EquationNumber_Previews: PreviewProvider {
   static var previews: some View {
     EquationNumber(blockIndex: 0, side: .left)

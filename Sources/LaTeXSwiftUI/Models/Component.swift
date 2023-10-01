@@ -28,6 +28,7 @@ import MathJaxSwift
 import SwiftUI
 
 /// A block of components.
+@available(iOS 16, *)
 internal struct ComponentBlock: Hashable, Identifiable {
   
   /// The component's identifier.
@@ -47,6 +48,7 @@ internal struct ComponentBlock: Hashable, Identifiable {
 }
 
 /// A LaTeX component.
+@available(iOS 16, *)
 internal struct Component: CustomStringConvertible, Equatable, Hashable {
   
   /// A LaTeX component type.

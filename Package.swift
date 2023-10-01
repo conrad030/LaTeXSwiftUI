@@ -4,15 +4,15 @@
 import PackageDescription
 
 let package = Package(
-  name: "LaTeXSwift",
+  name: "LaTeXSwiftUI",
   platforms: [
     .iOS(.v15),
     .macOS(.v13)
   ],
   products: [
     .library(
-      name: "LaTeXSwift",
-      targets: ["LaTeXSwift"]),
+      name: "LaTeXSwiftUI",
+      targets: ["LaTeXSwiftUI"]),
   ],
   dependencies: [
      .package(url: "https://github.com/colinc86/MathJaxSwift", from: "3.4.0"),
@@ -21,7 +21,7 @@ let package = Package(
   ],
   targets: [
     .target(
-      name: "LaTeXSwift",
+      name: "LaTeXSwiftUI",
       dependencies: [
         "MathJaxSwift",
         "SVGView",
@@ -29,6 +29,6 @@ let package = Package(
       ]),
     .testTarget(
       name: "LaTeXSwiftUITests",
-      dependencies: ["LaTeXSwift"]),
+      dependencies: ["LaTeXSwiftUI"]),
   ]
 )

@@ -7,7 +7,7 @@ let package = Package(
   name: "LaTeXSwiftUI",
   platforms: [
     .iOS(.v15),
-    .macOS(.v13)
+    .macOS(.v12)
   ],
   products: [
     .library(
